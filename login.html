@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>FORM LOGIN</title>
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Form Login</h1>
-<p>Silahkan anda login di form berikut ini untuk menggunakan sistem akademik di Universitas Amikom Yogyakarta</p>
-<form action="/action_page.php" target="_blank">
- Username:<br>
-  <input type="text" name=" " >
-  <br>
- Password:<br>
-  <input type="password" name=" " >
-  <br><br>
-   <input type="checkbox" id="myCheck"  onclick="myFunction()"> Remember Me
-
-<p id="text" style="display:none">Remember Me</p>
-<br></br>
-  <input type="submit" value="Submit">
-  
-</form> 
-
+    <div class="konten">
+        <div class="kepala">
+            <div class="lock"></div>
+            <center>
+            <h2 class="judul">Sign In</h2>
+        </center>
+        </div>
+        <div class="artikel">
+            <form action="#" method="post">
+                <div class="grup">
+                    <label for="email">Name</label>
+                    <input type="text" placeholder="Masukkan Nama Anda">
+                </div>
+                <div class="grup">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Masukkan password Anda">
+                </div>
+                <div class="grup">
+                    <input type="submit" value="Sign In">
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
