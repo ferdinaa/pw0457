@@ -61,18 +61,20 @@ div.artikel div.grup input[type="password"]{
     color: #808080;
 }
 
+
+
 div.artikel div.grup input[type="submit"]{
-    background: #33cd77;
+    background: #ff8d1e;
     padding: 4px 16px;
     margin: 0 auto;
-    border: 1px solid #33cd77;
+    border: 1px solid #ff8d1e;
     border-radius: 2px;
     color: #fff;
     cursor: pointer;
 }
 
 div.artikel div.grup input[type="submit"]:hover{
-    background: #28a45e;
+    background: #ff8d1e;
 }
 
 
