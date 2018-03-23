@@ -1,0 +1,27 @@
+CATATAN GIT:
+-------------------------------
+
+LANGKAH 1
+
+- misal tablel.html, gambar.jpg
+
+--> git commit : pesan
+--> git push
+
+-------------------------------
+
+LANGKAH 2
+
+ambil server
+--> git fetch
+--> git pull origin master
+
+menggambil file tadi 
+- table.html, gambar.html
+
+ulangi ke langkah 1
+
+
+------------------------------
+--> git status
+--> git origin master
