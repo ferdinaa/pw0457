@@ -6,11 +6,11 @@
 }
 
 body{
-    background: #c0c0c0;
+    background-image: url("background.jpg");
 }
 
 div.konten{
-    background: #ffffff;
+    background: #F0FFF0;
     width: 350px;
     margin: 222px auto 0;
     border-radius: 16px;
@@ -19,13 +19,13 @@ div.konten{
 }
 
 div.kepala{
-    background: #c80d9a;
+    background: #00BFFF;
     padding: 10px 22px;
     height: 60px;
 }
 
 div.kepala h2.judul{
-    color: #fff;
+    color: #FFF;
     font-weight: normal;
     line-height: 40px;
     display: inline-block;
