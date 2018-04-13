@@ -39,5 +39,17 @@
 }
 
 .content{
+	width: 900px;
+	height: 400px;
+	margin: 0 auto;
+	background: #333399;
 
+}
+.subc{
+	width: 290px;
+	height: 380;
+	background: #000033;
+	border-radius:10px;
+	float: left;
+	margin:5px; 
 }
