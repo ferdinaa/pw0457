@@ -1,0 +1,41 @@
+.header{
+	background: #000033;
+	margin:0 auto;
+	width: 900px;
+	height: 120px;
+	
+}
+.header h1{
+	text-align: center;
+	font-family:monospace;
+	color: #cc0000; 
+}
+.header small{
+	font-size:70%;
+}
+.menu{
+	width:900px;
+	height: 30px;
+	margin: 0 auto;
+	background: #333399;
+	text-align: center;
+	border-top: 1px solid #333399; 
+	border-bottom: 15px solid #333399;
+	font-family:courier;
+	color: #cc0000; 
+}
+.menu ul li{
+	display: inline;
+}
+.menu ul li a{
+	color:#fff;
+	margin: 5px 15px 5px 15px;
+	text-decoration-style: none;
+}
+.menu ul li a:hover{
+	color: #cc0000; 
+}
+
+.content{
+
+}
