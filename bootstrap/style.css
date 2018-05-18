@@ -1,5 +1,5 @@
 .header{
-	background: ##d2a679;
+	background: green;
 	width: 900px;
 	height: 120px;
 	margin: 0 auto;
@@ -13,14 +13,14 @@
 
 .header small{
 	font-size: 50%;
-	border-bottom: 1px solid #660000;
+	border-bottom: 1px solid #cc9966;
 }
 
 .menu{
 	width: 900px;
 	height: 40px;
 	margin: 0 auto;
-	background: #660000;
+	background: #cc9966;
 	border-top:1px solid #000;
 	text-align: center;
 }
