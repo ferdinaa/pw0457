@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="FA/web-FA/css/fontawesome-all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <script>
+      var app = angular.module("myApp", ["ngRoute"]);
+      app.config(function($routeProvider){
+        $routeProvider
+        .when("/",{
+          templateUrl : "main.htm"
+        })
+        .when("/about", {
+          templateUrl : "about.htm"
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+  	<div ng-app="myApp" class="container-fluid">
+  		<div class="row">
+  			<div class="col-md-12 header">
+  				<h1>Welcome to The Jungle</h1>
+  			</div>	
+  		</div>	
+
+  	<div class="row">
+  		<div class="col-md-12 menu">
+      <a href="#/!"><i class="fas fa-home"></i>
+      Home</a> |
+  			<a href="#! about">About</a> |
+        <a href="#! product">Product</a> |
+        <a href="#! contact">Contact</a> 
+  		</div>
+  	</div>
+  	
+  	</div>
+   <ng-view></ng-view>	
+  </body>
+
+</html>

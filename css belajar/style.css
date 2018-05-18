@@ -1,0 +1,63 @@
+.logo{
+	width: 100px ;
+	height:80px;
+	float: left;
+	margin:5px;
+}
+.header{
+	background: #fff;
+	margin:0 auto;
+	width: 900px;
+	height: 120px;
+	
+}
+.sosmed{
+ font-size: 70%;
+ text-align: center;
+}
+.header1{
+	background-image: url('images/header-bg.jpg');
+	margin:0 auto;
+	width: 900px;
+	height: 150px;
+}
+.header1 h1{
+	text-align: center;
+	font-family:sans-serif;
+	color: #fff;
+}
+.header1 small{
+	font-size:50%;
+	font-style:italic;
+}
+.content{
+	width: 900px;
+	height: 400px;
+	margin: 0 auto;
+	background: #d1d1e0;
+
+}
+.subc1{
+	width: 290px;
+	height: 380;
+	background-image: url('images/golden.png');
+	border-radius:10px;
+	
+	margin:5px; 
+}
+.subc2{
+	width: 290px;
+	height: 380;
+	background-image: url('images/startup-framework.png');
+	border-radius:10px;
+	
+	margin:5px; 
+}
+.subc3{
+	width: 290px;
+	height: 380;
+	background-image: url('images/treehouse.png');
+	border-radius:10px;
+	
+	margin:5px; 
+}
